@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 99vh;
+    margin: 0px;
+}
+#code_area {
+    width: 99%;
+    height: 99%;
+    display: flex;
+}
+#code_area textarea {
+    resize: none;
+    min-height: 100%;
+    font-size: 20px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+}
+#line {
+    width: 100px;
+    height: 100%;
+    color: rgb(0, 183, 255);
+    background-color: rgb(55, 55, 55);
+    text-align: center;
+    overflow: hidden;
+}
+
+#code {
+    flex: 1;
+    height: 100%;
+    color: white;
+    background-color: rgb(50, 50, 50);
+    overflow: scroll;
+}
